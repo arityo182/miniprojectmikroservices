@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.7",
+    "request": "^2.88.2"
+  },
+  "name": "miniproject",
+  "version": "1.0.0",
+  "main": "server2.js",
+  "scripts": {
+    "start": "node server2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "build": "npm run start"
+}
